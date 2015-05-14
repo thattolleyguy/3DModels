@@ -1,7 +1,7 @@
 $fn=64;
-
 difference(){
     translate([-31.5,-46,0])roundedcube(63,92,15,3);
+
     translate([-28,-42.5,3.5])cube([56,85,25]); //Hollow body
     translate([-27.8/2,-85/2-3.5,0])cube([27.8,19+3.5,4]); //SDCard
     translate([56/2-3.6-7.6,-85/2-.5-3.5,5.1])cube([8,6+3.5,3]);//Power port
